@@ -1,0 +1,80 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Selector de ID para el encabezado */
+#header {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Selector de ID para la sección "sobre mí" */
+#about {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+/* Selector de clase para las secciones */
+.section {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Selector de clase para el menú de navegación */
+.nav-menu {
+    margin-top: 10px;
+}
+
+.nav-menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.nav-menu li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.nav-menu a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-menu a:hover {
+    text-decoration: underline;
+}
+
+/* Selector de clase para el texto de contenido */
+.content-text {
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+/* Selector de clase para la imagen de perfil */
+.profile-img {
+    border-radius: 50%;
+    margin: 10px 0;
+    max-width: 150px; /* Tamaño máximo para reducir la imagen */
+    height: auto; /* Mantiene la proporción */
+}
+
+/* Selector de clase para el pie de página */
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #2c3e50;
+    color: white;
+    margin-top: 20px; /* Espacio antes del pie de página */
+}
