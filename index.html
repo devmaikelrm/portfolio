@@ -3,16 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Página Personal</title>
+    <title>Maikel Reyes Morales - Portfolio</title>
+    <meta name="description" content="Portfolio de Maikel Reyes Morales - Fullstack Developer & Automation Entrepreneur">
     <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="https://github.com/devmaikelrm.png" type="image/png">
 </head>
 <body>
     <header id="header">
-        <h1>¡Bienvenidos a mi página personal!</h1>
+        <h1>👋 Maikel Reyes Morales</h1>
+        <p class="subtitle">Fullstack Developer & Automation Entrepreneur</p>
         <nav class="nav-menu">
             <ul>
                 <li><a href="#about">Sobre mí</a></li>
-                <li><a href="#experience">Experiencia</a></li>
+                <li><a href="#projects">Proyectos</a></li>
+                <li><a href="#skills">Habilidades</a></li>
                 <li><a href="#contact">Contacto</a></li>
             </ul>
         </nav>
@@ -20,29 +24,92 @@
 
     <main>
         <section id="about" class="section">
-            <h2>Sobre mí</h2>
-            <img src="perfil.jpg" alt="Foto personal" class="profile-img">
-            <p class="content-text">Soy una persona apasionada por la tecnología y el desarrollo web. Durante las últimas semanas, he estado aprendiendo HTML y CSS, adquiriendo conocimientos sobre cómo estructurar páginas web y darles estilo. Me entusiasma crear sitios web funcionales y visualmente atractivos.</p>
+            <h2>🚀 Sobre mí</h2>
+            <img src="perfil.jpg" alt="Foto de Maikel Reyes Morales" class="profile-img">
+            <p class="content-text">
+                Soy un desarrollador <strong>fullstack</strong> con enfoque en <strong>automatización, bots inteligentes y soluciones reales</strong>.
+                De Cuba 🇨🇺 a Uruguay 🇺🇾, lidero proyectos innovadores que combinan tecnología y emprendimiento.
+            </p>
+            <p class="content-text">
+                Mi pasión es automatizar ideas para convertirlas en proyectos reales. Trabajo con tecnologías modernas
+                como Supabase, n8n, Cloudflare Workers y Twilio para crear soluciones escalables.
+            </p>
         </section>
 
-        <section id="experience" class="section">
-            <h2>Mi experiencia</h2>
-            <p class="content-text">A lo largo de mi aprendizaje, he trabajado en proyectos prácticos que incluyen:</p>
-            <ul>
-                <li>Creación de páginas web con HTML semántico.</li>
-                <li>Uso de selectores CSS para estilizar elementos, incluyendo selectores de clase, ID y descendentes.</li>
-                <li>Conexión de hojas de estilo externas para mantener el código organizado.</li>
-            </ul>
+        <section id="projects" class="section">
+            <h2>💼 Proyectos Destacados</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>💈 BarberBot</h3>
+                    <p>Bot de WhatsApp con pagos, reservas y panel web. Tecnología: Supabase, Twilio, Prisma, MercadoPago.</p>
+                    <a href="https://cutflowbot.store" target="_blank" class="project-link">Ver Demo</a>
+                </div>
+                <div class="project-card">
+                    <h3>🏛️ CitaConsulares</h3>
+                    <p>IA + automatización para citas consulares. Tecnología: Node.js, Playwright, Cloudflare.</p>
+                    <p class="status">En desarrollo</p>
+                </div>
+                <div class="project-card">
+                    <h3>📱 CubaModel</h3>
+                    <p>DB abierta de compatibilidad móvil en Cuba. Tecnología: Supabase, Next.js, Postgres.</p>
+                    <p class="status">Próximamente</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section">
+            <h2>⚙️ Stack Tecnológico</h2>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3>Backend</h3>
+                    <ul>
+                        <li>Node.js & Express</li>
+                        <li>Supabase (Postgres + Auth + RLS)</li>
+                        <li>Prisma ORM</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Automatización</h3>
+                    <ul>
+                        <li>n8n Workflows</li>
+                        <li>Playwright</li>
+                        <li>Twilio WhatsApp API</li>
+                        <li>OpenRouter & Mistral AI</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Frontend & Infra</h3>
+                    <ul>
+                        <li>Next.js & TailwindCSS</li>
+                        <li>Docker & Cloudflare Workers</li>
+                        <li>Vercel & Hetzner VPS</li>
+                    </ul>
+                </div>
+            </div>
         </section>
 
         <section id="contact" class="section">
-            <h2>Contacto</h2>
-            <p class="content-text">Si quieres contactarme, puedes hacerlo a través de mi correo electrónico: <a href="mailto:reyessmorales95@gmail.com">reyessmorales95@gmail.com</a>.</p>
+            <h2>🌍 Conectemos</h2>
+            <div class="contact-links">
+                <a href="https://github.com/devmaikelrm" target="_blank" class="contact-link">
+                    <img src="https://img.shields.io/badge/GitHub-devmaikelrm-black?style=for-the-badge&logo=github" alt="GitHub">
+                </a>
+                <a href="https://linkedin.com/in/devmaikelrm" target="_blank" class="contact-link">
+                    <img src="https://img.shields.io/badge/LinkedIn-Maikel%20Reyes%20Morales-blue?style=for-the-badge&logo=linkedin" alt="LinkedIn">
+                </a>
+                <a href="https://t.me/Ser_travieso" target="_blank" class="contact-link">
+                    <img src="https://img.shields.io/badge/Telegram-@Ser_travieso-2CA5E0?style=for-the-badge&logo=telegram" alt="Telegram">
+                </a>
+                <a href="mailto:reyessmorales95@gmail.com" class="contact-link">
+                    <img src="https://img.shields.io/badge/Email-reyessmorales95@gmail.com-red?style=for-the-badge&logo=gmail" alt="Email">
+                </a>
+            </div>
         </section>
     </main>
 
     <footer class="footer">
-        <p>&copy; 2025 Mi Página Personal. Todos los derechos reservados.</p>
+        <p>&copy; 2025 Maikel Reyes Morales. Todos los derechos reservados.</p>
+        <p>"Automatizo ideas para convertirlas en proyectos reales." ⚙️🤖</p>
     </footer>
 </body>
 </html>
